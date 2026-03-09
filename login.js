@@ -14,7 +14,7 @@ document.getElementById("login-btn").addEventListener("click",function(){
     if(username=="admin" && password=="admin123"){
         //3-1true>>goto homepage
         alert("login success")
-        window.location.assign("/home.html");
+        window.location.assign("./home.html");
     }
     //3-2true>>alert> return
     else{
